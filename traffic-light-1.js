@@ -12,7 +12,6 @@ while (rotations < 2) {
   const currentState = trafficLight.state;
   console.log("The traffic light is on", currentState);
 
-  // Switching logic based on the current state
   if (currentState === "green") {
     trafficLight.state = "orange";
   } else if (currentState === "orange") {
