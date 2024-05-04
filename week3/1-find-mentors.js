@@ -17,7 +17,6 @@ const possibleMentorsForModule = (moduleName) => {
   return mentorsForModule;
 };
 
-// You can uncomment out this line to try your function
 console.log(possibleMentorsForModule('using-apis'));
 
 /**
@@ -32,5 +31,4 @@ const findMentorForModule = (moduleName) => {
   return mentorsForModule[randomIndex];
 };
 
-// You can uncomment out this line to try your function
 console.log(findMentorForModule('javascript'));
