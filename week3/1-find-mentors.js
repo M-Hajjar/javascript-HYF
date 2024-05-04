@@ -18,7 +18,7 @@ const possibleMentorsForModule = (moduleName) => {
 };
 
 // You can uncomment out this line to try your function
-// console.log(possibleMentorsForModule('using-apis'));
+console.log(possibleMentorsForModule('using-apis'));
 
 /**
  * Tjebbe wants to make it even easier for himself.
@@ -33,4 +33,4 @@ const findMentorForModule = (moduleName) => {
 };
 
 // You can uncomment out this line to try your function
-// console.log(findMentorForModule('javascript'));
+console.log(findMentorForModule('javascript'));
