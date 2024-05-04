@@ -31,8 +31,8 @@ const getPeopleOfClass = (className) => {
 
     return people;
   };
-// You can uncomment out this line to try your function
-// console.log(getPeopleOfClass('class34'));
+
+  console.log(getPeopleOfClass('class34'));
 
 /**
  * We would like to have a complete overview of the current active classes.
@@ -57,5 +57,4 @@ const getActiveClasses = () => {
 
   return activeClassesPeople;
 };
-// You can uncomment out this line to try your function
-// console.log(getActiveClasses());
+ console.log(getActiveClasses());
